@@ -1,0 +1,573 @@
+body{
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif; ;
+}
+
+.cabecera{
+    display: flex;
+    height: 80;
+    font-size: 20px;
+    padding: 35px;
+    color: #00285e;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: bold;
+    background-image: url(../images/rombs.png);
+    background-size: 680px;
+    background-repeat: no-repeat;
+    background-position-x: 894px;
+    background-position-y: -197px;
+    background-color: rgb(152,197,233);
+    
+}
+
+.linkschool{
+    text-decoration: none;
+    color: black;
+}
+.calendar{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    margin-inline-start: 15px;
+}
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact{
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+.indexn, .aboutn, .contactn, .rulesn, .gamen, .regisn{
+    background-color:rgb(152,197,233);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.menu {
+    padding: 15px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-right: 0;
+    background-color:  rgb(43, 43, 43);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+.menu li{
+    display: inline;
+}
+.menu li a {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px;
+    height: 15px;
+    color: #fff;
+    
+}
+.menu li a:hover {
+    background-color: #98c5e9;
+    margin-top: 0px;
+    padding-bottom: 15px;
+    color: #00285e;
+
+}
+.menu li {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.menu li:hover,
+.menu li:focus,
+.menu li:active {
+    transform: scale(1.2);
+}
+.menu li a:active{
+    color: rgb(250, 250, 120);
+}
+.boxesc{
+    display: flex;
+    padding-top: 10;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url(../images/triangle-mosaic.png);
+    padding-bottom: 0;
+}
+.leftboxc{
+    padding-bottom: 14;
+}
+.nyslmail{
+    text-decoration: none;
+    color: orange;
+}
+
+/* ----gameinfo---- */
+.horariostit{
+    padding-top: 20px;
+}
+.saturday{
+    font-style: italic;
+    color: black;
+}
+th, td{
+    padding: 5px 10px;
+}
+th{
+    background-color: #98c5e9 ;
+}
+.grey{
+    background-color: rgba(211, 211, 211, 0.575);
+}
+.horarios{
+    padding-left: 263px;
+    padding-top: 35px;
+}
+.tablas{
+    display: inline-block;
+    width: 540;
+    vertical-align: top;
+    padding-left: 7;
+}
+.darkgrey{
+    background-color: rgba(82, 80, 80, 0.404) ;
+}
+
+p{
+    color: rgba(66, 63, 63, 0.842);
+}
+
+h4{
+    background-color: #98c5e9a4;
+    border-style: dotted;
+    border-color: white ;
+
+}
+.footer{
+    padding-left: 300px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-image: url(../images/triangle-mosaic.png);
+}    
+.randall{
+    text-decoration: none;
+    color: orange;
+}
+
+.footert{
+    font-weight: bold;
+}
+
+.footert2{
+    padding-left: 320px;
+    font-weight: bold;
+}
+
+/*registration*/
+
+.jersey_shorts{
+    vertical-align: top;
+}
+.jersey2{
+    padding-top: 21;
+}
+.jerseys{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+ul{
+    padding-bottom: 20px;
+}
+.li1{
+    height: 20px;
+}
+.li3{
+    height: 40px;
+}
+.jerseytit{
+    font-weight: bold;
+    width: 150;
+    padding-top: 6;
+}
+
+.robes{
+    display: flex;
+    justify-content: start;
+
+}
+.shortsizetit{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.shorts{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding-left: 50;
+}
+.short2{
+    padding-top: 16;
+    padding-left: 22;
+}
+.entradas{
+    font-weight: bold;
+    font-size: 16px;
+}
+.schoolboxes1, .schoolboxes2{
+    display: inline-block;
+    padding-left: 0;
+}
+.genderblock{
+    padding-left: 50;
+}
+.schoolboxes2{
+    padding-left: 134;
+}
+.bold{
+    font-weight: bold;
+}
+.required{
+    font-size: 13;
+    color: red;
+}
+.asterisk{
+    color: red;
+}
+form{
+    padding-top: 30;
+    padding-left: 330;
+    padding-right: 100;
+    padding-bottom: 50;
+}
+.registration{
+    padding-top: 25;
+    text-align: center;
+    font-size: 33;
+}
+.footerpermission{
+    color: black;
+}
+.uniform{
+    font-weight: bold;
+}
+.secondblock{
+    
+    padding-right: 200;
+}
+.sizebig{
+    width: 300;
+    font-size: 16;
+}
+.sizebig2{
+    width: 300;
+    font-size: 16;
+}    
+.sizebig3{
+    width: 733;
+    font-size: 16;
+}
+.sizebig4{
+    width: 413;
+    font-size: 16;
+}
+.sizebig5{
+    width: 708;
+    font-size: 16;
+}
+
+.size, .sizebig, .sizebig2, .sizebig3, .sizebig4, .sizebig5{
+    border-style: dotted;
+    border-color: rgba(128, 128, 128, 0.61);
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 4;
+    
+}
+.sizehalf_row{
+    border-style: dotted;
+    border-color: rgba(128, 128, 128, 0.61);
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 4;
+}
+
+#button{
+padding:5px 30px;
+color: white;
+font-size: 1em;
+font-family: 'Josefin Sans', sans-serif;
+background-color: rgb(152,197,233);
+border: 0px;
+-webkit-border-radius: 5px;
+-webkit-box-shadow: 0px 4px 0px #1f508f;
+cursor: pointer;
+}
+#button:hover{
+    background-color: rgb(184, 219, 248) ;
+}
+#button2{
+padding:5px 30px;
+margin-left: 40px;
+color: white;
+font-size: 1em;
+font-family: 'Josefin Sans', sans-serif;
+background-color: rgb(223, 105, 105);
+border: 0px;
+-webkit-border-radius: 5px;
+-webkit-box-shadow: 0px 4px 0px rgb(172, 73, 73);
+cursor: pointer;
+}
+#button2:hover{
+    background-color: rgb(221, 140, 140);
+}
+.buttons{
+    padding-left: 300px;
+}
+.container{
+    background-image: url(../images/triangle-mosaic.png);
+    padding-top: 200px;
+}
+.containerregister{
+    background-image: url(../images/triangle-mosaic.png);
+    padding-top: 190px;
+    padding-bottom: 10;
+}
+.upcoming{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+.add{
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #405b72;
+}
+.monthday{
+    background-color: #98c5e9a4;
+    border-style: dotted;
+    border-color: white ;
+    margin-right: 230px;
+    margin-left: 230px;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+/* .monthday:hover {
+    background-color: #ffffca;
+  } */
+  .monthday:hover,
+  .monthday:focus,
+  .monthday:active {
+      transform: scale(1.3);
+      background-color: #ffffca;
+  }
+.left-box{
+    padding-left: 40px;
+    /* padding-top: 200px; */
+    width: 600px;
+    height: 730px;
+    text-align: center;
+    background-image: url(../images/triangle-mosaic.png);
+    padding-bottom: 48;
+}
+.right-box{
+    background-image: url(../images/players.jpg);
+    margin-left:0px;
+    height: 780px;
+    width: 879px;
+    background-repeat: no-repeat;
+}
+.boxes{
+    display: flex
+}
+.generalinfo{
+    background-color: #98c5e97c;
+    border-style: dotted;
+    border-color: white ;
+    margin-right: 535px;
+}
+
+.vision{
+    background-color: #98c5e97c;
+    border-style: dotted;
+    border-color: white ;
+    margin-right: 658px;  
+}
+.right-boxabout{
+    padding-left: 40px;
+    width: 717px;
+    background-image: url(../images/triangle-mosaic.png);
+    padding-right: 60;  
+}
+.left-boxabout{
+    background-image: url(../images/office.jpg);
+    background-position-y: 600px ;
+    margin-left:0px;
+    width: 719px;
+    height: 535;
+}
+.boxesabout{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.p1{
+    color: black;
+    padding-bottom: 28px;
+    
+}
+
+.p2{
+    padding-bottom: 14px;
+    line-height: 20px;
+    color: black;
+}
+.p3{
+    color: black;
+}
+
+.mision{
+    background-color: #98c5e97c;
+    border-style: dotted;
+    border-color: white ;
+    margin-right: 647px;  
+}
+.black1{
+    color: black;
+}
+.rulescabecera{
+    padding-top: 25px;
+    text-align: center;
+}
+.titlesrules{
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+.regulations{
+    font-weight: bold;
+    font-size: 16px;
+}
+.orderletters{
+    list-style: lower-latin;
+}
+.totalrules1{
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 210px;
+    padding-bottom: 20px;
+    background-image: url(../images/triangle-mosaic.png);
+    line-height: 22px;
+}
+.positiongroup1, .positiongroup2{
+    display: flex;
+    flex-direction: column;
+}
+.report{
+    background-image: url(../images/triangle-mosaic.png);
+    padding-bottom: 30px;
+}
+tr:hover {
+    background-color: #ffffca;
+  }
+  .totalmaps{
+      padding-top: 110px;
+      padding-bottom: 50px;
+      padding-left: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.linkslocations{
+    padding-right: 70px;
+    
+}
+.linkss{
+padding-bottom: 40px;
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+backface-visibility: visible;
+-moz-osx-font-smoothing: grayscale;
+transition-duration: 0.3s;
+transition-property: transform;
+color: black;
+}
+.linkss:hover a{
+    text-decoration: underline;
+    text-decoration-color: rgb(152,197,233) ;
+}
+.linkss:hover,
+.monthday:focus,
+.monthday:active {
+  transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    font-family: Arial;
+    width: 960px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #00285e;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #5e90b9;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #ffffff;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #1f5499;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+.move{
+    display: scroll;
+    position: fixed;
+    bottom: 567px;
+    right: 7px;
+} */
+header{
+    position: fixed;
+    width: 100%;
+}
